@@ -1,0 +1,38 @@
+body {
+	background-color: #FBF1DB;
+}
+
+.name{
+
+	margin-left: 30px;
+	font-family: "anth", sans-serif;
+font-weight: 400;
+font-style: normal;
+color: #27467C;
+font-size: 55px;
+
+}
+
+.details {
+	font-size: 25px;
+	font-family: "neue-haas-grotesk-display", sans-serif;
+font-weight: 500;
+font-style: normal;
+margin-left: 15px;
+color: #27467C;
+
+}
+
+.head {
+	margin-top: 20px;
+}
+
+.info {
+	font-size: 28px;
+	font-family: "neue-haas-grotesk-display", sans-serif;
+font-weight: 500;
+font-style: normal;
+margin-left: 30px;
+color: #27467C;
+
+}
