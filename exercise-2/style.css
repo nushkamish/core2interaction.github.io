@@ -1,0 +1,74 @@
+
+body {
+    color: #F8FFEB;
+}
+
+.title {
+    text-align: center;
+    color:#023B39;
+    font-family: "tomarik-serif", serif;
+font-weight: 400;
+font-style: normal;
+}
+
+hr.line{
+    border: 1.5px solid #023B39;
+    border-radius: 2px;
+  }
+
+.bodytext {
+    color:#023B39;
+    font-family: "tomarik-introvert", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    width: 75%;
+    margin: auto;
+
+}
+
+.intro {
+    text-align: justify;
+}
+
+.adjectives {
+    font-family: "tomarik-poster", sans-serif;
+font-weight: 400;
+font-style: normal;
+font-size: 25px;
+text-align: center;
+}
+
+.goodbye {
+    color:#023B39;
+    text-align: center;
+    font-family: "tomarik-poster", sans-serif;
+font-weight: 400;
+font-style: normal;
+font-size: 25px;
+
+
+}
+
+/* unvisited link */
+a:link {
+    color:#023B39;
+    text-decoration: none;
+  }
+  
+  /* visited link */
+  a:visited {
+    color: #172621;
+    text-decoration: none;
+  }
+  
+  /* mouse over link */
+  a:hover {
+    color: #0F1A16;
+    
+  }
+  
+  /* selected link */
+  a:active {
+    color: #0F1A16;
+    text-decoration: none;
+  }
