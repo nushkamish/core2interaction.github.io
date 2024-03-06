@@ -10,7 +10,7 @@ body {
 	font-size: 156px;
 	line-height: 0.5;
 	transform: rotate(-90deg);
-	position: fixed; /* Position the title */
+	position: fixed; 
     top:300px;
 	left: -140px;
     transform: rotate(-90deg) translateY(-50%);
@@ -24,7 +24,7 @@ body {
 	color: #FF1B1C;
 	opacity:0.8;
 
-  transform: rotate(180deg); /* rotate the text to make it appear vertically */
+  transform: rotate(180deg); 
 }
 
 
@@ -34,7 +34,7 @@ body {
 	opacity:0.7;
 
 	
-  transform: rotate(180deg); /* rotate the text to make it appear vertically */
+  transform: rotate(180deg); 
 }
 
 
@@ -45,7 +45,7 @@ body {
 	opacity:0.7;
 
 
-  transform: rotate(180deg); /* rotate the text to make it appear vertically */
+  transform: rotate(180deg); 
 }
 
 
@@ -107,6 +107,72 @@ font-size: 26px;
 margin-left: 375px;
 
 }
+
+/* For screens smaller than 768px (i.e., mobile phones) */
+@media (max-width: 767px) {
+    .title {
+        font-size: 135px;
+    }
+
+	.content {
+
+		font-size: 18px;	
+		
+		margin-left: 270px;
+		margin-top: 40px;
+	
+	}
+
+	.title2 {
+		font-size: 18px;	
+		
+	
+	}
+
+	.lab {
+		font-size: 18px;	
+		
+	
+	}
+
+	
+	
+
+}
+
+/* For screens between 768px and 1023px (i.e., tablets) */
+@media (min-width: 768px) and (max-width: 1023px) {
+    .title {
+		font-size: 135px;
+    }
+
+	.content {
+
+		font-size: 18px;	
+		
+		margin-left: 270px;
+		margin-top: 40px;
+	
+	}
+
+	.title2 {
+		font-size: 18px;	
+		
+	
+	}
+
+	.lab {
+		font-size: 18px;	
+		
+	
+	}
+
+	
+
+  
+}
+
+
 
   
 
