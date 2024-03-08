@@ -1,0 +1,36 @@
+body {
+    background-color:#BE6E46;
+}
+
+#container {
+  display: flex;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+.letter {
+  display: flex;
+  flex-wrap: wrap;
+  margin-right: 30px;
+}
+.cell {
+  width: 30px;
+  height: 30px;
+}
+
+
+
+.h {
+  width: 120px;
+}
+
+
+.fill {
+  background-color: #EEEBD0;
+  transition: border-radius 0.3s linear;
+}
+
+
+
