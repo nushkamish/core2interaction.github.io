@@ -1,0 +1,91 @@
+.body {
+
+    background-color: #FCF9ED;
+}
+
+.intro {
+    font-family: "neue-haas-grotesk-display", sans-serif;
+    font-weight: 500;
+    font-style: normal;
+    font-size: 23px;
+    text-align: center;
+    margin-top: 250px;
+    justify-content: center;
+    
+}
+
+.word {
+    font-family: "neue-haas-grotesk-display", sans-serif;
+    font-weight: 500;
+    font-style: italic;
+}
+
+.poem {
+    font-family: "neue-haas-grotesk-display", sans-serif;
+    font-weight: 500;
+    font-style: normal;
+    font-size: 23px;
+    text-align: center;
+    justify-content: center;
+}
+
+#word1 {
+    color: #C30C09;
+}
+
+#word2 {
+    color: #C30C09;
+}
+
+#word3 {
+    color: #C30C09;
+}
+
+#word4 {
+    color: #C30C09;
+}
+
+#word5 {
+    color: #C30C09;
+}
+
+.instruction {
+    font-family: "neue-haas-grotesk-display", sans-serif;
+    font-weight: 500;
+    font-style: normal;
+    font-size: 23px;
+    text-align: center;
+    justify-content: center;
+}
+
+.word6 {
+    color: #C30C09;
+}
+
+
+
+.word7 {
+    font-family: "neue-haas-grotesk-display", sans-serif;
+    font-weight: 500;
+    font-style: italic;
+}
+
+
+@media only screen and (max-width: 768px) {
+    .intro,
+    .poem,
+    .instruction {
+        font-size: 18px;
+    }
+}
+
+@media only screen and (max-width: 480px) {
+    .intro,
+    .poem,
+    .instruction {
+        font-size: 16px;
+    }
+}
+
+
+
