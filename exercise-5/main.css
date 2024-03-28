@@ -1,0 +1,110 @@
+body 
+{
+    background-color: #121316;
+}
+
+.hello {
+font-family: "pragmatapro-fraktur", serif;
+font-weight: 700;
+font-style: normal;
+text-align: center;
+justify-content: center;
+color: white;
+margin-top: 50px;
+width: 40;
+}
+
+.end {
+font-family: "pragmatapro-fraktur", serif;
+font-weight: 700;
+font-style: normal;
+margin: auto;
+text-align: center;
+justify-content: center;
+color: white;
+}
+
+/* #line1
+#line2 
+#line3
+#line4
+#line5
+#line6
+#line7
+#line8
+#line9
+#line10
+#line11
+#line12
+#line13
+#line14
+#line15
+#line16
+#line17
+#line18
+#line19
+#line20
+#line21
+#line22
+#line23
+#line24
+#line25
+#line26
+#line27
+#line28
+#line29
+#line30
+#line31
+#line32
+#line33
+
+{
+
+    color: white;
+
+} */
+
+.lyrics {
+    font-family: "pragmatapro-fraktur", serif;
+    font-weight: 400;
+    font-style: normal;
+    margin: auto;
+    justify-content: center;
+    text-align: justify;
+    width: 35%;
+    margin: auto;
+   
+}
+
+.static {
+
+    font-family: "pragmatapro-fraktur", serif;
+    font-weight: 400;
+    font-style: normal;
+    color: #535765;
+
+}
+
+
+
+@media screen and (max-width: 768px) {
+   
+
+    .lyrics {
+        width: 90%;
+    }
+
+    .hello {
+        margin-top: 30px;
+    }
+}
+
+@media screen and (max-width: 480px) {
+   
+
+    .lyrics {
+        width: 95%;
+    }
+}
+
+
