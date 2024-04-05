@@ -1,0 +1,62 @@
+body {
+    background-color: #F2E9DC;
+}
+
+.hello {
+    font-family: "hey-eloise-watercolor", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    color: #17384F;
+    font-size: 75px;
+    text-align: center;
+    margin-top: 100px;
+}
+
+.rectangles {
+    display: flex;
+    margin: 0 auto;
+    margin-top: 70px;
+    width: 70%;
+    
+}
+
+.rectangle {
+    flex-grow: 1;
+    height: 450px;
+    width: 150px;
+
+}
+
+
+@media only screen and (max-width: 768px) {
+    .hello {
+        font-size: 10vw; /* Adjust font size for smaller screens */
+    }
+
+    .rectangles {
+        width: 90%; /* Adjust width for smaller screens */
+    }
+
+    .rectangle {
+        height: 100vw; /* Adjust height for smaller screens */
+        width: 30vw; /* Adjust width for smaller screens */
+    }
+}
+
+@media only screen and (max-width: 480px) {
+    .hello {
+        font-size: 10vw; /* Further adjust font size for smaller screens */
+    }
+
+    .rectangles {
+        width: 90%; /* Further adjust width for smaller screens */
+    }
+
+    .rectangle {
+        height: 1vw; /* Further adjust height for smaller screens */
+        width: 40vw; /* Further adjust width for smaller screens */
+    }
+}
+
+
+
