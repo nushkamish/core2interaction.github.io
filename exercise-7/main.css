@@ -1,0 +1,57 @@
+body {
+    background-color: #04724D;
+}
+
+.intro {
+color: #F4F4F9;   
+font-family: "pf-pixelscript", sans-serif;
+font-weight: 400;
+font-style: normal;
+text-align: center;
+margin-top: 160px;
+align-items: center;
+font-size: 60px;
+display: flex;
+justify-content: center;
+align-items: center;
+}
+
+.container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+
+}
+
+#image {
+    max-width: 20%;
+    height: auto;
+    display: block;
+    margin: 0 auto; /* Center the image horizontally */
+    margin-top: 30px;
+}
+
+
+
+input[type="range"] {
+    -webkit-appearance: none;
+    width: 40%; 
+    height: 10px; 
+    background: #d3d3d3; 
+    outline: none;
+    opacity: 0.7;
+    -webkit-transition: .2s;
+    transition: opacity .2s;
+}
+
+
+input[type="range"]::-webkit-slider-thumb {
+    -webkit-appearance: none;
+    appearance: none;
+    width: 25px; 
+    height: 25px; 
+    background: #4CAF50; 
+    cursor: pointer;
+    border-radius: 50%; 
+}
