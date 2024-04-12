@@ -1,7 +1,19 @@
 let sliderInput = document.getElementById("my-range");
 let myImage= document.getElementById("image");
+let myButton= document.getElementById("my-button");
 
 myImage.src = "";
+myImage.alt = "";
+
+
+myButton.style.display = "none";
+
+sliderInput.addEventListener("input", function() {
+   
+    myButton.style.display = "block";
+});
+
+
 
 
 console.log(sliderInput.value);
@@ -19,6 +31,18 @@ function changeMeme(){
 }
 
 
+
+
+
   
+    }
+
+    function helloMeme() {
+        let myImages = document.getElementById("mainImage");
+        
+       
+        myImages.src = "meme.jpg"; 
+        
+    
     }
     

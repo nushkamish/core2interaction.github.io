@@ -24,13 +24,39 @@ align-items: center;
 
 }
 
+.container1 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+
+
+}
+
 #image {
     max-width: 20%;
     height: auto;
     display: block;
-    margin: 0 auto; /* Center the image horizontally */
+    margin: 0 auto; 
     margin-top: 30px;
 }
+
+#mainImage {
+
+    position: absolute; 
+    top: 50%; 
+    left: 50%; 
+    transform: translate(-50%, -50%); 
+    z-index: 9999; 
+    max-width: 80%;
+    height: auto;
+    display: block;
+    margin: 0 auto;
+
+    
+}
+
+
 
 
 
@@ -54,4 +80,35 @@ input[type="range"]::-webkit-slider-thumb {
     background: #4CAF50; 
     cursor: pointer;
     border-radius: 50%; 
+}
+
+
+@media screen and (max-width: 768px) {
+    .intro {
+        font-size: 35px; 
+    }
+    
+    #image {
+        max-width: 40%; 
+    }
+
+
+    #mainImage {
+
+        position: absolute; 
+        top: 50%; 
+        left: 50%; 
+        transform: translate(-50%, -50%); 
+        z-index: 9999; 
+        max-width: 100%;
+        height: auto;
+        display: block;
+        margin: 0 auto;
+    
+        
+    }
+    
+    input[type="range"] {
+        width: 60%; 
+    }
 }
