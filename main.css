@@ -109,6 +109,53 @@ margin-left: 375px;
 }
 
 
+/* the shape */
+
+
+/* Circles styling */
+.container {
+	position: relative;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	height: 100vh;
+	margin-top: -700px;
+	margin-right: -450px;
+	margin-left: auto;
+	
+  }
+  
+  .circle {
+	width: 350px; 
+	height: 350px; 
+	border-radius: 50%;
+	opacity: 0.7;
+	position: absolute;
+  }
+  
+  .circle:nth-child(1) {
+	background-color: #FF1B1C;
+	top: calc(50% - 150px); 
+	left: calc(50% - 40px); 
+	z-index: 3; 
+  }
+  
+  .circle:nth-child(2) {
+	background-color: #FFD20A;
+	top: calc(50% - 50px); 
+	left: calc(50% + 50px); 
+	z-index: 2;
+  }
+  
+  .circle:nth-child(3) {
+	background-color: #33658A;
+	top: calc(50% - 50px); 
+	left: calc(50% - 100px); 
+	z-index: 1;
+  }
+  
+
+
 @media (max-width: 767px) {
     .title {
         font-size: 135px;
@@ -133,6 +180,10 @@ margin-left: 375px;
 		font-size: 18px;	
 		
 	
+	}
+
+	.circle {
+		display: none;
 	}
 
 	
@@ -166,15 +217,13 @@ margin-left: 375px;
 	
 	}
 
+	.circle {
+		display: none;
+	}
+
+
 	
 
   
 }
-
-
-
-  
-
-
-
 
